@@ -49,7 +49,7 @@ class Register extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.of(context).pushNamed('/login');
+                Navigator.of(context).pushNamed('/');
               },
               child: const Text('Register'),
             ),
@@ -58,7 +58,7 @@ class Register extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushNamed(context, '/');
               },
               child: const Text('Login'),
             )

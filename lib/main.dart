@@ -20,10 +20,11 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/login': (context) => const Login(),
+        '/': (context) => const Login(),
         '/register': (context) => const Register(),
-        '/home': (context) => Home(),
+        '/home': (context) => const Home(),
       },
+      debugShowCheckedModeBanner: false,
     );
   }
 }
